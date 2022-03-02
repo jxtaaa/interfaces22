@@ -11,37 +11,43 @@
             <p>
                 <label for="username">Nombre:</label>
                 <input type="text" name="name" id="name" title='Introduce
-                your name' autocomplete="on"/>
+                your name' autocomplete="username"/>
             </p>
 
             <p>
                 <label for="primerapellido">Primer apellido:</label>
                 <input type="text" name="primerapellido" id="primerapellido" title='Introduce
-                tu primer apellido' autocomplete="on"/>
+                tu primer apellido' autocomplete="family-name"/>
             </p>
 
             <p>
                 <label for="email">Email:</label>
-                <input type="text" name="email" id="email" title='Introduce
-                tu email' autocomplete="on"/>
+                <input type="email" name="email" id="email" title='Introduce
+                tu email' autocomplete="email"/>
             </p>
 
             <p>
-                <label for="primerapellido">Primer apellido:</label>
-                <input type="text" name="primerapellido" id="primerapellido" title='Introduce
-                tu primer apellido' autocomplete="on"/>
+                <label for="born">Fecha nacimiento:</label>
+                <input type="date" name="born" id="born" title='Introduce
+                tu fecha de nacimiento' autocomplete="on"/>
             </p>
 
             <p>
                 <label for="pass">Contraseña:</label>
                 <input type="password" name="pass" id="pass" title='Introduce
-                tu primer contraseña' autocomplete="on"/>
+                tu contraseña' autocomplete="new-password"/>
+            </p>
+
+            <p>
+                <label for="repass">Repetir contraseña:</label>
+                <input type="password" name="repass" id="repass" title='Introduce
+                tu contraseña de nuevo'/>
             </p>
 
             <p>
                 <label for="color">Color favorito:</label>
-                <input type="text" name="color" id="color" title='Introduce
-                tu color favorito' autocomplete="on"/>
+                <input type="color" name="color" id="color" title='Introduce
+                tu color favorito'/>
             </p>
             <input type="submit" value="Submit" />
             </form>
